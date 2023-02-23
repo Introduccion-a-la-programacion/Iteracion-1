@@ -60,7 +60,7 @@
 
 
 ```python
->>>contarDigitosImpares(306):
+>>>contarDigitosImpares(305):
 2
 >>>contarDigitosImpares(0):
 0

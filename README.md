@@ -1,4 +1,4 @@
-# Practica - Iteraciones
+# Práctica - Iteraciones
 
 - El archivo debe llamarse **Practicas.py**, además respetar el nombre de las funciones que más adelante se describen
 - Recordar hacer las validaciones de cada una de las restricciones
@@ -37,6 +37,19 @@
 
 
 ```python
->>>sumatoriaParcial(3, 6):
-18
+>>>contarDigitos(306):
+3
+>>>contarDigitos(0):
+1
+```
+## contarDigitosImpares(num)
+- Retornar la cantidad de dígitos **impares** que tiene un número dado el parámetro de entrada **num**
+- **num** debe ser un número entero y positivo.
+
+
+```python
+>>>contarDigitosImpares(306):
+2
+>>>contarDigitosImpares(0):
+0
 ```

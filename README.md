@@ -1,59 +1,42 @@
-# 2022 S2 Portafolio #1
+# Practica - Iteraciones
 
-El archivo debe llamarse **Portafolio1.py**, además respetar el nombre de las funciones que más adelante se describen
-Recordar hacer las validaciones de cada una de las restricciones
+- El archivo debe llamarse **Practicas.py**, además respetar el nombre de las funciones que más adelante se describen
+- Recordar hacer las validaciones de cada una de las restricciones
+- Además no olvidar los comentarios, validaciones y el hacer uso de las estructuras ***IF y WHILE***
 
-Recordar los comentarios, validaciones y el hacer uso de las estructuras ***IF, WHILE o FOR***
-
-## divisores(num)
-Imprimir los divisores de un número de manera descendente.
-Solo números enteros positivos.
-
-```python
->>>divisores(24)
-[24, 12, 8, 6, 4, 3, 2, 1]
-```
-
-## potencia(base, exponente)  
-Potencia de un número base elevado a un número exponente sin utilizar el operador de potencia.
-Para ambos parámtros solo números enteros positivos.
+## sumatoria(num)
+- Retornar el valor de la sumatoria desde **CERO** hasta el valor de **num**
+- **num** debe ser un número entero y positivo.
 
 ```python
->>>potencia(5, 2)
-25
+>>>sumatoria(5)
+15
 ```
 
-## division(dividendo, divisor)
-Resultado de la división entera un número “dividendo” entre un número “divisor” sin utilizar el operador de división.
-Para ambos parámtros solo números enteros positivos.
-Tomar en cuenta la divisón entre cero no es permitido.
+## sumatoriaDescendente(num)
+- Retornar el valor de la sumatoria desde **num** hasta el valor de **CERO**
+- **num** debe ser un número entero y positivo.
 
 ```python
->>>division(25, 5)
-5
->>>division(25, 0)
-'Error: División entre cero'  
+>>>sumatoriaDescendente(5)
+15
 ```
 
-## indiceNumero(num, indice)
-Retorna el dígito del número según índices.
-Para ambos parámtros solo números enteros positivos.
-La lectura debe ser de izquiera a derecha, iniciando desde desde 1
+## sumatoriaParcial(inicio, final)
+- Retornar el valor de la sumatoria desde el valor por el parámetro **inicio** hasta el valor de **final** inclusive
+- **inicio** y **final** debe ser un número entero y positivo.
+
 ```python
->>>indiceNumero(1235, 3)  	
-3
->>>indiceNumero(1335, 8)
-'Error: Indice fuera del rango del número'
+>>>sumatoriaParcial(3, 6):
+18
 ```
 
-## cortarNumero(num, ini, fin)
-Construir una función que reciba un número y ordenados de manera ascendente.
-Para ambos parámtros solo números enteros positivos.
-Verificar que los parámtros ini y fin no sobre pasen el largo del número.
+## contarDigitos(num)
+- Retornar la cantidad de dígitos que tiene un número dado el parámetro de entrada **num**
+- **num** debe ser un número entero y positivo.
+
+
 ```python
->>>cortarNumero(1235, 2, 3)
-23
->>>cortarNumero(1335, 8, 2)
-'Error: Indices fuera del rango del número'
+>>>sumatoriaParcial(3, 6):
+18
 ```
-

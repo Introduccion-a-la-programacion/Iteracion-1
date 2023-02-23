@@ -13,6 +13,18 @@
 15
 ```
 
+## factorial(num)
+- Retornar el valor del factorial, el cual debe multiplicarse desde **1** hasta el valor de **num**
+- Casos base: el factorial de 0 es 1
+- **num** debe ser un número entero y positivo.
+
+```python
+>>>factorial(0)
+1
+>>>factorial(3)
+6
+```
+
 ## sumatoriaDescendente(num)
 - Retornar el valor de la sumatoria desde **num** hasta el valor de **CERO**
 - **num** debe ser un número entero y positivo.
